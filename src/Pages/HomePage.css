@@ -1,0 +1,41 @@
+/* HomePage.css */
+
+.home {
+  /* background-image: url('../Images/grain_wall.jpg'); */
+  background-color: whitesmoke;
+  background-size: cover;  /* or cover */
+  background-repeat: repeat; /* Prevents the background image from repeating */
+  font-family: Arial, sans-serif;
+  padding: 2em;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.recent-artworks {
+  text-align: center;
+}
+
+.recent-artworks h2 {
+  color: #333;
+}
+
+.recent-artworks p {
+  color: #777;
+  margin-bottom: 2em;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+@media screen and (max-width: 600px) {
+
+  .home{
+    width: 100%;
+  }
+
+}
